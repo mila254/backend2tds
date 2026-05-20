@@ -13,3 +13,7 @@ let dado = 20;
 let resultado = dado - presenca; 
 
 console.log(`O resultado é ${resultado}.`)
+
+let ponto1 = 300;
+let ponto2 = 500;
+
