@@ -12,8 +12,21 @@ let presenca = 1;
 let dado = 20;
 let resultado = dado - presenca; 
 
-console.log(`O resultado é ${resultado}.`)
+console.log(`${nomeJogador} jogou um dado e o resultado é ${resultado}.`);
 
 let ponto1 = 300;
 let ponto2 = 500;
+let totalPontos = ponto1 + ponto2;
+console.log(`Você tem ${totalPontos} pontos`);
+
+function verificarPontos (totalPontos) {
+    if (totalPontos > 1.000) {
+        return "Você subiu de nivel"
+    } else {
+        return "Você ainda precisa de pontos"
+    }
+};
+console.log(verificarPontos)
+
+let nivel = 7;
 
